@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": true,
+      "item": "walk"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "coding"
+    },
+    {
+      "id": 3,
+      "checked": true,
+      "item": "read a book"
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "item": "drink 2 ltr water"
+    }
+  ]
+}

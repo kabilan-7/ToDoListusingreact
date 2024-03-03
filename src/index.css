@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100;
+}
+.head{
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+footer{
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+}
+.App{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+ 
+}
+main button,span{
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+  font-size: 20px;
+}
+main span{
+  font-size: 50px;
+  text-align: center;
+}
+main li{
+  font-size: 30px;
+}
+ 
+.listitems{
+  list-style-type: none;
+  background-color: lightgray;
+  margin: 15px;
+  padding: 25px;
+  display: flex;
+}
+.checkbox{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.listitems label{
+  padding-left: 10px;
+  cursor: pointer;
+}
+.listitems label:hover{
+  text-decoration: underline;
+}
+.listitems .trash{
+  padding-left: 10px;
+  font-size: 37px;
+  color: steelblue;
+  cursor: pointer;
+}
+.listitems svg:hover{
+ color: red;
+}
+.addForm{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+#additem {
+  position: absolute;
+
+  width: 350px;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+.submitbtn{
+
+  margin-left: 370px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  color: blue;
+}
+.submitbtn:hover,
+.submitbtn:focus{
+  background-color: lightgreen;
+  color: white;
+  cursor: pointer;
+}
+.displaymessage{
+  font-size: 30px;
+}
+.searchcontainer{
+  display: flex;
+  justify-content: center;
+}
+.searchcontainer input{
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+.load,.errormess{
+  font-size: 30px;
+}
